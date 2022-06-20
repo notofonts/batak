@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>6</td>
+                <td>8</td>
+                <td>114</td>
+                <td>8</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>5%</td>
+                <td>66%</td>
+                <td>5%</td>
+                <td>57%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check Google Fonts glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Check copyright namerecords match license file.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2021 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Are there caret positions declared for every ligature?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/ligature_carets&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]</p>
+</span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- a-batak + uSign-batak
+
+- ha-batak + uSign-batak
+
+- haMandai-batak + uSign-batak
+
+- ba-batak + uSign-batak
+
+- karoBa-batak + uSign-batak
+
+- na-batak + uSign-batak
+
+- naMandai-batak + uSign-batak
+
+- wa-batak + uSign-batak
+
+- ga-batak + uSign-batak
+
+- ja-batak + uSign-batak 
+
+- And 11 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 319, but got 293 instead. [code: descent]</p>
+</span></li></ul></div></details>
+<h3>Font has **proper** whitespace glyph names?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphnames&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot; [code: not-recommended-00a0]</p>
+</span></li></ul></div></details>
+<h3>Glyph names are all valid?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/valid_glyphnames&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: a-batak, a_uSign-batak, aSima-batak, ha-batak, ha_uSign-batak, haSima-batak, haMandai-batak, haMandai_uSign-batak, ba-batak, ba_uSign-batak and 71 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- waSima_uSign-batak
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️</h2>
+<h3>Check glyphs in mark glyph class are non-spacing.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+commaaccent2 (unencoded) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check GDEF mark glyph class doesn't have characters that are not marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+1BEE [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>
