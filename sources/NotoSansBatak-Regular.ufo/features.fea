@@ -132,8 +132,8 @@ lookup flip_uSign_batak {
 } flip_uSign_batak;
 } rclt;
 
-feature liga {
-lookup liga_uSign_batak {
+feature rlig {
+lookup rlig_uSign_batak {
     lookupflag UseMarkFilteringSet @below_base_batak;
 
     sub a-batak uSign-batak by a_uSign-batak;
@@ -157,12 +157,12 @@ lookup liga_uSign_batak {
     sub nga-batak uSign-batak by nga_uSign-batak;
     sub la-batak uSign-batak by la_uSign-batak;
     sub nya-batak uSign-batak by nya_uSign-batak;
-} liga_uSign_batak;
+} rlig_uSign_batak;
 
 lookup simple_uSign_batak {
     lookupflag UseMarkFilteringSet @below_base_batak;
 
     sub [aSima-batak haSima-batak waSima-batak gaSima-batak raSima-batak maSima-batak] uSign-batak' by uSign-batak.simple;
 } simple_uSign_batak;
-} liga;
+} rlig;
 
