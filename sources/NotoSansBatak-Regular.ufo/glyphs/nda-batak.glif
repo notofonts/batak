@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nda-batak" format="2">
-	<advance width="875"/>
 	<unicode hex="1BE2"/>
-	<anchor x="168" y="536" name="topleft"/>
-	<anchor x="689" y="37" name="bottomright"/>
-	<anchor x="718" y="536" name="topright"/>
+	<advance width="875"/>
 	<outline>
 		<contour>
 			<point x="778" y="147" type="curve" smooth="yes"/>
@@ -65,6 +62,9 @@
 			<point x="76" y="-15"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="168" y="536"/>
+	<anchor name="bottomright" x="689" y="37"/>
+	<anchor name="topright" x="718" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

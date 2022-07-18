@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="karoBa-batak" format="2">
-	<advance width="990"/>
 	<unicode hex="1BC6"/>
-	<anchor x="197" y="536" name="topleft"/>
-	<anchor x="791" y="-30" name="bottomright"/>
-	<anchor x="807" y="536" name="topright"/>
+	<advance width="990"/>
 	<outline>
 		<contour>
 			<point x="495" y="-10" type="curve" smooth="yes"/>
@@ -35,6 +32,9 @@
 			<point x="655" y="78"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="197" y="536"/>
+	<anchor name="bottomright" x="791" y="-30"/>
+	<anchor name="topright" x="807" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

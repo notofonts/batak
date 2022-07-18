@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ha_uSign-batak" format="2">
 	<advance width="1040"/>
-	<anchor x="586" y="536" name="top"/>
-	<anchor x="305" y="536" name="topleft"/>
-	<anchor x="915" y="536" name="topright"/>
 	<outline>
 		<contour>
 			<point x="780" y="32" type="curve"/>
@@ -77,6 +74,9 @@
 			<point x="845" y="-14"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="586" y="536"/>
+	<anchor name="topleft" x="305" y="536"/>
+	<anchor name="topright" x="915" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>

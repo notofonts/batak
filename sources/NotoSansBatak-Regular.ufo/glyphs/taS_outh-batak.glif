@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taSouth-batak" format="2">
-	<advance width="797"/>
 	<unicode hex="1BD6"/>
-	<anchor x="140" y="536" name="topleft"/>
-	<anchor x="576" y="-52" name="bottomright"/>
-	<anchor x="610" y="536" name="topright"/>
+	<advance width="797"/>
 	<outline>
 		<contour>
 			<point x="115" y="-15" type="curve" smooth="yes"/>
@@ -57,6 +54,9 @@
 			<point x="93" y="-15"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="140" y="536"/>
+	<anchor name="bottomright" x="576" y="-52"/>
+	<anchor name="topright" x="610" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="raSima-batak" format="2">
-	<advance width="986"/>
 	<unicode hex="1BD3"/>
-	<anchor x="227" y="536" name="topleft"/>
-	<anchor x="851" y="-59" name="bottomright"/>
-	<anchor x="827" y="536" name="topright"/>
+	<advance width="986"/>
 	<outline>
 		<contour>
 			<point x="241" y="161" type="curve" smooth="yes"/>
@@ -79,6 +76,9 @@
 			<point x="680" y="-5"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="227" y="536"/>
+	<anchor name="bottomright" x="851" y="-59"/>
+	<anchor name="topright" x="827" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

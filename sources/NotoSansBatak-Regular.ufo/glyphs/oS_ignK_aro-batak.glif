@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oSignKaro-batak" format="2">
-	<advance width="0"/>
 	<unicode hex="1BED"/>
-	<anchor x="-170" y="536" name="_topright"/>
-	<anchor x="-170" y="908" name="topright"/>
 	<outline>
 		<contour>
 			<point x="-183" y="552" type="curve" smooth="yes"/>
@@ -58,6 +55,8 @@
 			<point x="-492" y="684"/>
 		</contour>
 	</outline>
+	<anchor name="_topright" x="-170" y="536"/>
+	<anchor name="topright" x="-170" y="908"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

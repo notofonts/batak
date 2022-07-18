@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ra-batak" format="2">
-	<advance width="953"/>
 	<unicode hex="1BD2"/>
-	<anchor x="168" y="536" name="topleft"/>
-	<anchor x="703" y="-58" name="bottomright"/>
-	<anchor x="778" y="536" name="topright"/>
+	<advance width="953"/>
 	<outline>
 		<contour>
 			<point x="657" y="-15" type="curve" smooth="yes"/>
@@ -83,6 +80,9 @@
 			<point x="80" y="339"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="168" y="536"/>
+	<anchor name="bottomright" x="703" y="-58"/>
+	<anchor name="topright" x="778" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

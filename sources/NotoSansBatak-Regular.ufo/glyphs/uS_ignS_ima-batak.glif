@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uSignSima-batak" format="2">
-	<advance width="0"/>
 	<unicode hex="1BEF"/>
-	<anchor x="-554" y="830" name="top"/>
-	<anchor x="-535" y="488" name="_top"/>
 	<outline>
 		<contour>
 			<point x="-669" y="552" type="curve" smooth="yes"/>
@@ -35,6 +32,8 @@
 			<point x="-690" y="552"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="-554" y="830"/>
+	<anchor name="_top" x="-535" y="488"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="naMandai-batak" format="2">
-	<advance width="956"/>
 	<unicode hex="1BCA"/>
-	<anchor x="158" y="659" name="topleft"/>
-	<anchor x="783" y="-20" name="bottomright"/>
-	<anchor x="778" y="659" name="topright"/>
+	<advance width="956"/>
 	<outline>
 		<contour>
 			<point x="441" y="-10" type="curve" smooth="yes"/>
@@ -94,6 +91,9 @@
 			<point x="70" y="552"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="158" y="659"/>
+	<anchor name="bottomright" x="783" y="-20"/>
+	<anchor name="topright" x="778" y="659"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

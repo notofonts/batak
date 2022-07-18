@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oSign-batak" format="2">
-	<advance width="533"/>
 	<unicode hex="1BEC"/>
-	<anchor x="256" y="506" name="topright"/>
+	<advance width="533"/>
 	<outline>
 		<contour>
 			<point x="63" y="0" type="curve" smooth="yes"/>
@@ -57,6 +56,7 @@
 			<point x="414" y="5"/>
 		</contour>
 	</outline>
+	<anchor name="topright" x="256" y="506"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

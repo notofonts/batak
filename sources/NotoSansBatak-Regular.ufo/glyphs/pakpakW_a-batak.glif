@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pakpakWa-batak" format="2">
-	<advance width="788"/>
 	<unicode hex="1BCD"/>
-	<anchor x="51" y="536" name="topleft"/>
-	<anchor x="446" y="30" name="bottomright"/>
-	<anchor x="631" y="536" name="topright"/>
+	<advance width="788"/>
 	<outline>
 		<contour>
 			<point x="689" y="-15" type="curve" smooth="yes"/>
@@ -68,6 +65,9 @@
 			<point x="652" y="-15"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="51" y="536"/>
+	<anchor name="bottomright" x="446" y="30"/>
+	<anchor name="topright" x="631" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

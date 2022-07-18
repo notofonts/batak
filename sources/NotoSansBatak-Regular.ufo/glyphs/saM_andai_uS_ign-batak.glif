@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="saMandai_uSign-batak" format="2">
 	<advance width="1056"/>
-	<anchor x="526" y="536" name="top"/>
-	<anchor x="226" y="536" name="topleft"/>
-	<anchor x="837" y="536" name="topright"/>
 	<outline>
 		<contour>
 			<point x="529" y="339" type="curve" smooth="yes"/>
@@ -64,6 +61,9 @@
 			<point x="370" y="-170"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="526" y="536"/>
+	<anchor name="topleft" x="226" y="536"/>
+	<anchor name="topright" x="837" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iSign-batak" format="2">
-	<advance width="483"/>
 	<unicode hex="1BEA"/>
-	<anchor x="227" y="476" name="topright"/>
+	<advance width="483"/>
 	<outline>
 		<contour>
 			<point x="216" y="0" type="curve" smooth="yes"/>
@@ -33,6 +32,7 @@
 			<point x="293" y="83"/>
 		</contour>
 	</outline>
+	<anchor name="topright" x="227" y="476"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

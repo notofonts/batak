@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eSign-batak" format="2">
-	<advance width="318"/>
 	<unicode hex="1BE7"/>
-	<anchor x="112" y="415" name="topright"/>
+	<advance width="318"/>
 	<outline>
 		<contour>
 			<point x="55" y="0" type="curve" smooth="yes"/>
@@ -31,6 +30,7 @@
 			<point x="33" y="0"/>
 		</contour>
 	</outline>
+	<anchor name="topright" x="112" y="415"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="na_uSign-batak" format="2">
 	<advance width="1088"/>
-	<anchor x="275" y="585" name="topleft"/>
-	<anchor x="845" y="585" name="topright"/>
 	<outline>
 		<contour>
 			<point x="577" y="-10" type="curve" smooth="yes"/>
@@ -80,6 +78,8 @@
 			<point x="863" y="143" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="275" y="585"/>
+	<anchor name="topright" x="845" y="585"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

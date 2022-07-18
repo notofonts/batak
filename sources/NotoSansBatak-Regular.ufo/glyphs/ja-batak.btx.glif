@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ja-batak.btx" format="2">
 	<advance width="889"/>
-	<anchor x="168" y="537" name="topleft"/>
-	<anchor x="666" y="-116" name="bottomright"/>
-	<anchor x="778" y="537" name="topright"/>
 	<outline>
 		<contour>
 			<point x="105" y="253" type="curve" smooth="yes"/>
@@ -84,6 +81,9 @@
 			<point x="563" y="-69"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="168" y="537"/>
+	<anchor name="bottomright" x="666" y="-116"/>
+	<anchor name="topright" x="778" y="537"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

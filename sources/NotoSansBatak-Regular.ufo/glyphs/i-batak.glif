@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i-batak" format="2">
-	<advance width="913"/>
 	<unicode hex="1BE4"/>
-	<anchor x="749" y="585" name="topright"/>
+	<advance width="913"/>
 	<outline>
 		<contour>
 			<point x="95" y="388" type="curve" smooth="yes"/>
@@ -83,6 +82,7 @@
 			<point x="336" y="-5"/>
 		</contour>
 	</outline>
+	<anchor name="topright" x="749" y="585"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

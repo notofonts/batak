@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yaSima-batak" format="2">
-	<advance width="1070"/>
 	<unicode hex="1BDC"/>
-	<anchor x="227" y="536" name="topleft"/>
-	<anchor x="803" y="66" name="bottomright"/>
-	<anchor x="837" y="536" name="topright"/>
+	<advance width="1070"/>
 	<outline>
 		<contour>
 			<point x="388" y="-10" type="curve" smooth="yes"/>
@@ -79,6 +76,9 @@
 			<point x="70" y="333"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="227" y="536"/>
+	<anchor name="bottomright" x="803" y="66"/>
+	<anchor name="topright" x="837" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

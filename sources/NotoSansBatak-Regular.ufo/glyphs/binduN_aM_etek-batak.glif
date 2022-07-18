@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="binduNaMetek-batak" format="2">
-	<advance width="1070"/>
 	<unicode hex="1BFC"/>
+	<advance width="1070"/>
 	<outline>
 		<contour>
 			<point x="265" y="-124" type="curve" smooth="yes"/>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ha-batak" format="2">
-	<advance width="1040"/>
 	<unicode hex="1BC2"/>
-	<anchor x="586" y="536" name="top"/>
-	<anchor x="915" y="536" name="topright"/>
-	<anchor x="305" y="536" name="topleft"/>
-	<anchor x="787" y="-70" name="bottomright"/>
+	<advance width="1040"/>
 	<outline>
 		<contour>
 			<point x="270" y="-15" type="curve" smooth="yes"/>
@@ -64,6 +60,10 @@
 			<point x="245" y="-15"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="586" y="536"/>
+	<anchor name="topright" x="915" y="536"/>
+	<anchor name="topleft" x="305" y="536"/>
+	<anchor name="bottomright" x="787" y="-70"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

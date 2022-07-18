@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nya-batak" format="2">
-	<advance width="917"/>
 	<unicode hex="1BE0"/>
-	<anchor x="168" y="536" name="topleft"/>
-	<anchor x="729" y="2" name="bottomright"/>
-	<anchor x="748" y="536" name="topright"/>
+	<advance width="917"/>
 	<outline>
 		<contour>
 			<point x="340" y="-12" type="curve" smooth="yes"/>
@@ -59,6 +56,9 @@
 			<point x="580" y="67"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="168" y="536"/>
+	<anchor name="bottomright" x="729" y="2"/>
+	<anchor name="topright" x="748" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

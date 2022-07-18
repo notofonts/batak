@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="laSima-batak" format="2">
-	<advance width="1056"/>
 	<unicode hex="1BDF"/>
-	<anchor x="227" y="536" name="topleft"/>
-	<anchor x="762" y="188" name="bottomright"/>
-	<anchor x="837" y="536" name="topright"/>
+	<advance width="1056"/>
 	<outline>
 		<contour>
 			<point x="529" y="339" type="curve" smooth="yes"/>
@@ -59,6 +56,9 @@
 			<point x="84" y="-5"/>
 		</contour>
 	</outline>
+	<anchor name="topleft" x="227" y="536"/>
+	<anchor name="bottomright" x="762" y="188"/>
+	<anchor name="topright" x="837" y="536"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

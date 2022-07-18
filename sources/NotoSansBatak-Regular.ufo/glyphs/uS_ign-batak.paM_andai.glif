@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uSign-batak.paMandai" format="2">
-	<advance width="0"/>
-	<anchor x="141" y="-319" name="bottomright"/>
-	<anchor x="141" y="58" name="_bottomright"/>
 	<outline>
 		<contour>
 			<point x="230" y="-291" type="curve" smooth="yes"/>
@@ -31,6 +28,8 @@
 			<point x="191" y="-291"/>
 		</contour>
 	</outline>
+	<anchor name="bottomright" x="141" y="-319"/>
+	<anchor name="_bottomright" x="141" y="58"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

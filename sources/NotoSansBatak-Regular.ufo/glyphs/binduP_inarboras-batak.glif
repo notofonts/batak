@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="binduPinarboras-batak" format="2">
-	<advance width="1107"/>
 	<unicode hex="1BFD"/>
+	<advance width="1107"/>
 	<outline>
 		<contour>
 			<point x="554" y="-124" type="curve"/>

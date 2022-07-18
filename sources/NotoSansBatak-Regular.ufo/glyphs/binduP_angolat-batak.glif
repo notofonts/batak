@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="binduPangolat-batak" format="2">
-	<advance width="495"/>
 	<unicode hex="1BFF"/>
+	<advance width="495"/>
 	<outline>
 		<contour>
 			<point x="-55" y="-275" type="curve" smooth="yes"/>

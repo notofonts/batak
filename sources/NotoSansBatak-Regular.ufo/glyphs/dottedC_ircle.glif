@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dottedCircle" format="2">
-	<advance width="594"/>
 	<unicode hex="25CC"/>
-	<anchor x="300" y="580" name="top"/>
-	<anchor x="590" y="585" name="topright"/>
-	<anchor x="-10" y="585" name="topleft"/>
-	<anchor x="491" y="0" name="bottomright"/>
-	<note>
-		uni25CC
-	</note>
+	<advance width="594"/>
 	<outline>
 		<contour>
 			<point x="480" y="448" type="curve" smooth="yes"/>
@@ -235,10 +228,17 @@
 			<point x="167" y="116"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="300" y="580"/>
+	<anchor name="topright" x="590" y="585"/>
+	<anchor name="topleft" x="-10" y="585"/>
+	<anchor name="bottomright" x="491" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2021/07/24 12:38:48</string>
 		</dict>
 	</lib>
+	<note>
+uni25CC
+</note>
 </glyph>

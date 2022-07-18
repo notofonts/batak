@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eeSign-batak" format="2">
-	<advance width="0"/>
 	<unicode hex="1BE9"/>
-	<anchor x="-437" y="488" name="_topleft"/>
-	<anchor x="-430" y="723" name="topleft"/>
 	<outline>
 		<contour>
 			<point x="-540" y="552" type="curve" smooth="yes"/>
@@ -26,6 +23,8 @@
 			<point x="-565" y="552"/>
 		</contour>
 	</outline>
+	<anchor name="_topleft" x="-437" y="488"/>
+	<anchor name="topleft" x="-430" y="723"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

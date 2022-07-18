@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iSignKaro-batak" format="2">
-	<advance width="327"/>
 	<unicode hex="1BEB"/>
-	<anchor x="146" y="442" name="topright"/>
+	<advance width="327"/>
 	<outline>
 		<contour>
 			<point x="56" y="265" type="curve" smooth="yes"/>
@@ -45,6 +44,7 @@
 			<point x="31" y="102"/>
 		</contour>
 	</outline>
+	<anchor name="topright" x="146" y="442"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
