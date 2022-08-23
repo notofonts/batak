@@ -565,6 +565,8 @@
 			<string>base</string>
 			<key>mba-batak</key>
 			<string>base</string>
+			<key>dottedCircle</key>
+			<string>base</string>
 		</dict>
 	</dict>
 </plist>
