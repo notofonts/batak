@@ -1,0 +1,9 @@
+{
+    "tests": [
+        {
+            "input": "ᯆᯨ᯿ᯣᯮ᯿",
+            "expectation": "karoBa-batak=0+1090|eSignPak-batak=0@-113,0+0|binduPangolat-batak=2+495|mba-batak=3+1090|uSign-batak=3@-441,-128+0|binduPangolat-batak=5+495",
+            "note": "Issue #2"
+        }
+    ]
+}

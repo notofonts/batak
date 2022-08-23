@@ -166,3 +166,6 @@ lookup simple_uSign_batak {
 } simple_uSign_batak;
 } rlig;
 
+feature dist {
+    pos @consonant_batak' 100 [oSignKaro-batak uSign-batak eSignPak-batak] binduPangolat-batak;
+} dist;
