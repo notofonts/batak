@@ -101,6 +101,15 @@ lookup uSignSimaVirama {
 	sub panongonan-batak by uSignSima-batak panongonan-batak;
 } uSignSimaVirama;
 
+lookup vowelToNg {
+    sub @vowelPost_batak by ngSign-batak;
+} vowelToNg;
+
+lookup toESign {sub ngSign-batak by eSign-batak; } toESign;
+lookup toISign {sub ngSign-batak by iSign-batak; } toISign;
+lookup toISignKaro {sub ngSign-batak by iSignKaro-batak; } toISignKaro;
+lookup toOSign {sub ngSign-batak by oSign-batak; } toOSign;
+
 feature rclt {
 script batk;
 lookup reorder_vowels {
@@ -116,6 +125,15 @@ lookup reorder_vowels {
 	sub uSign-batak' lookup deleteVowel @consonant_batak' @virama_batak' lookup uSignVirama ;
 	sub uSignSima-batak' lookup deleteVowel @consonant_batak' @virama_batak' lookup uSignSimaVirama ;
 } reorder_vowels;
+
+lookup reorder_vowel_ng {
+    lookupflag UseMarkFilteringSet [ngSign-batak];
+    sub eSign-batak' lookup vowelToNg ngSign-batak' lookup toESign;
+    sub iSign-batak' lookup vowelToNg ngSign-batak' lookup toISign;
+    sub iSignKaro-batak' lookup vowelToNg ngSign-batak' lookup toISignKaro;
+    sub oSign-batak' lookup vowelToNg ngSign-batak' lookup toOSign;
+} reorder_vowel_ng;
+
 
 language BTX;
 lookup karo_ja_batak {
