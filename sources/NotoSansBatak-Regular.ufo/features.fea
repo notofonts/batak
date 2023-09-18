@@ -20,6 +20,7 @@
  ];
 
 # Prefix: Languagesystems
+languagesystem DFLT dflt;
 languagesystem batk dflt;
 languagesystem batk BTX;
 languagesystem batk BTM;
