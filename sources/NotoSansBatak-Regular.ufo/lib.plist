@@ -114,7 +114,7 @@
     </array>
     <key>public.openTypeCategories</key>
     <dict>
-      <key>       a-batak</key>
+      <key>a-batak</key>
       <string>base</string>
       <key>aSima-batak</key>
       <string>base</string>
